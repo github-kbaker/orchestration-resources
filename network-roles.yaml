@@ -1,4 +1,5 @@
 In this example, the {network-role} has been defined as oam to represent an oam network and the {vm-type} have been defined as lb for load balancer and db for database.
+In this example, the {network-role} has been defined as oam to represent an oam network and the {vm-type} have been defined as lb for load balancer and db for database.
 resources:
 db_server_group:
 type: OS::Nova::ServerGroup
