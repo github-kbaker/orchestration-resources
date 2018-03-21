@@ -1,4 +1,4 @@
-heat_template_version: 2017-05-23
+heat_template_version: 2018-03-21
 description: Simple template to deploy a single compute instance with parameters
 
 parameters:
