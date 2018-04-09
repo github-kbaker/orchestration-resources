@@ -1,0 +1,191 @@
+1   EC2 EBS snapshot CANNOT be made public
+
+2   end user uploads images - IAM role service
+
+3   placement groups - AZ instances has to be the same group
+
+4   uploading directly to Amazon S3 cloud - AWS Web Identity federation service
+
+5   deletes queue messages after four (4) days - Amazon SQS service
+
+6   NOSQL database - Amazon DynamoDB
+
+7   failovers initiates billing per boot sequence - thats only during AWS EC2 instances running
+
+8   always delete your root access keys per AWS message - for AWS unrestricted security reasons
+
+9   all data destroyed - via AWS Dod 5220.22-M decommissioning process
+
+10  daily vaulting data asynchrounously to the cloud - thats via Amazon Glacier service
+
+11  S3 authentication data - via AWS Elastic Map Reduce (EMR) method
+
+11  running big data frameworks, such as Apache Hadoop and Apache Spark, to AWS - use Amazon EMR, Elastic Map Reduce managed cluster platform  
+
+12  online gaming site via massive data processing to EC2 instance - AMazon Elastic MAP Reduction (EMR)
+
+13  instant database reboot for EC2 instance changing storage type from standard - RDS storage type PIOPS security
+
+14  collect votes for a very popular television show - KINESIS service
+
+15  Trusted Advisor service provides insight - Performance, cost optimization, security, and fault tolerance service
+
+16  track GPS coordinates of delivery trucks in the United States - KINESIS service
+
+17  stores pictures in Amazon Simple Storage Service (S3) and allows application sign-in - use Web Identity Federation
+
+18  5 GB video objects to Amazon Simple Storage Service (53). Video uploads are taking long -  Amazon S3 multipart upload
+
+19  track access to Amazon Simple Storage Service (53) buckets and using information for their internal security - AW5 CIoudTrail to audit all Amazon S3 bucket
+
+20  deploying a two-tier, highly available web applicationto AWS.  - use Amazon S3
+
+21  stores static assets in Amazon Simple Storage Service (53) bucket. expect this bucket to  receive over 150 PUT requests - Use multi-part upload
+
+22  '500 GB yearly and must be presented as a single logical volume to tape backup - 'Gateway-Virtual Tape Library with snapshots to Amazon Glacier' serviceA
+
+23  storage until the text file is retrieved. You do not know storage capacity requirements - use single Amazon S3 bucket service
+
+24  custom scripting to new Amazon Linux instances - uses EC2Config service
+
+25  services natively encrypts data at REST - use A. AWS Storage GatewayD. Amazon Glacier
+
+26  ensure mat AWS credentials (i.e ., Access Key ID/Secret Access Key combination) - use Enable Multi-Factor Authentication for your AWS root account
+
+27  two-tier web application in AWS - Amazon DynamoDB service
+
+28  EC2 instance type must be launched with what type of Amazon Machine Image (AMI)  -  Instance store Hardware Virtual Machine AMI
+
+29  Storing JSON documents.E. Running relational joins and complex updates.F. Storing large amounts of infrequently accessed data - use Amazon DynamoDB
+
+30  need a minute time Interval for the data processing service - use 'Amazon CIoudWatch'
+
+31  For MuIti-AZ deployments - by using Amazon RDS provides high availability and failover services
+
+32  4-IOPS is equal to 1,024 KB I/O
+
+33  Need service that helps you model and set up your Amazon Web Services resources  - try AWS CIoudFormation for provisioning and configuring those VPC resources
+
+34  need formatting AWS CloudFormation - try using JSON-formatted files
+
+35  one time process for x-large temporary instance terminated, all the data will be lost - via EC2 SPOT instance
+
+36  using the Amazon EC2 tag - via AWS CloudFormation
+
+35  VPC versus of EC2-Classic gives you the ability for:
+	-Assigning static private IP addresses to your instances that persist across starts and stops Assign multiple IP addresses to your instancesDefine network interfaces,
+	-attaching one or more network interfaces to your instances
+	-Changing security group membership for your instances while they're running
+	-Controlling outbound traffic from your instances (egress filt'Auto Scaling'ering)
+	-controlling inbound traffic to them (ingress filtering)
+	-Adding additional layer of access control to your instances in the form of networkaccess control lists (ACL)
+	-Running your instances on single-tenant hardware
+
+36  manually creating 'launch configuration' via EC2 instance - 'Auto Scaling' automates the launch configuration
+
+37  packaged-up VPC environment with bits to set up and boot your instance - use the EC2 Amazon Machine Image(AMI) 
+
+38  recorder for allowing recording AWS calls made by your AWS account - use AWS CIoudTrail service 
+
+39  need to distribute confidential documents to employees - use via AWS CIoudFront 
+
+40  need workload on the network will be low, and dynamic data processing accessed - use EC3 Magnetic
+
+41  strategies for using control access to your Amazon EC2 instances - use EC2 security group
+
+42  using resource-based permissions - thats via Amazon S3, Amazon SNS, Amazon SQS, Amazon Glacier and Amazon EBS
+
+43  good solution for public cloud content distribution - use Amazon S3 as origin server with Amazon CIoudFront for caching
+
+44  controlling (redirecting, moving, workloads work ) EC2 network traffic -  thats via ENI (Elastic Network Interface) 
+
+45  AWS account has multiple VPC all over the place - manage up to 3 VPC peering connections between same two VPCs at the same time
+
+46  when you choose metrics for the US East (N. Virginia) - all CIoudWatch becomes available
+
+47  for storage objects that are less than 5 GB in size - recommending S3 BitTorrent storage area
+
+48  looking for improving EBS storage performance - there's PIOPS
+
+49  want AWS Media Sharing Framework for photo sharing thats similar to flickr - try Amazon EBS volumes or Amazon S3
+
+50  detecting outage at your website or need to redirect your end users to alternate locations - try the Amazon Route S3 
+
+51  try enabling instances in a private subnet for connecting to the Internet. - via NAT device
+
+52  For transferring data directly to AWS rather than through your internet service provider - thats via AWS Direct Connect
+ 
+53  stop sending new requests traffic from load balancer to my EC2 instance - ELB connection draining service solves this
+
+54  running a webserver that EC2 allows receiving SMS on threshold limit - thats via AWS CIoudWatch + AWS SNS.
+
+55  for storing Non-critical or reproducible data - use Reduced Redundancy Storage (RRS) service
+
+56  want to use logging module for accessing all application- use the AWS Simple Queue Service (SQS) service
+
+57  want access control - use (IAM) policies, Access Control Lists (ACLs), bucket policies, and query string authentication
+
+58  got mobile gaming on EC2 needing notifications s active users features -  use AWS Simple Notification Service
+
+59  for scripting custom resources - via CIoudFormation templates ( not Elastic Beanstalk )
+
+60  for SSL server certificate in EC2 - AWS Identity & Access Management
+
+61  want controlling access to your Amazon EC2 resources at EBS Snapshot  - use createVoIumePermission feature service
+
+62  runninng MySQL with a master - use  RDS 
+
+63  multi-AZ deployment and one or more Read Replicas - use RDS 
+
+64  using automated daily DB backup - use RDS  
+
+65  10GB AWS Direct Connect connection to an AWS region that uses a BASE (Basic Available. Sort stale Eventual consistency) rather than an ACID (Atomicity. Consistency isolation. Durability) for reducing the load database resources - use Amazon Elastic Map Reduce (EMR) S3 kkDistCp as a synchronization mechanism 
+
+66  you creating many database writes. To be certain that you do not drop any writes to a database hosted on AWS. Which service should you use - use Amazon Simple Queue Service (SOS)
+
+67  EC2 running PostgreSQL RDS instance - improve performance using 6-node Redshift cluster with 96TB of storage
+
+68  Using Amazon KINESIS for collecting inbound sensor data, output results to Red shift cluster via EMR
+
+69  migrating VM's on single 10GB VMDK almost full ME virtual network interface still using 10Mbps driver  - use Use the EC2 VMImport Connector for vCenter to import the VM into EC2
+
+70  seamless transition for your users - Configure your DirectConnect router, update your VPC route tables to point to the DirectConnect connection, configure your VPN connection with a higher BGP pointy. And verify network traffic is leveraging the DirectConnect connection
+
+71  for protecting against users accidentally deleting once a week - thats via Storing S3 bucket data while enabling versioning. 
+
+72  for needing relational database that will automatically scale - thats via !NEW 'Amazon Aurora' accommodate data growth
+
+73  your application is scaling up and down multiple times for optimize for cost while preserving elasticity - Amazon CloudWatch alarm period that triggering 
+
+74  moving to the EU region (new location) - thats via creating AMI instance and copying AMI to the EU region
+
+75  connecting your instances without Internet connectivity in private subnet VPC - thats via bastion host server for connecting to the instances
+
+76  using HPC ( High performance computing ) system with low-latency network performance - thats via Placement group
+
+77  launching new configuration with new instance type for attaching to AS group - via dynamically CHANGING instance type for USE in Auto Scaling Group - 
+
+78  record type queries are free when using Route 53 - via using Alias
+
+79  service alias record is NOT free when using with Route 53 - thats via AS
+
+80  disabling versioning; no need - 'lifecycle rules' and versioning can work simultaneously
+
+81  DONT need protocol NOT supported with Route 53 health check - thats via UDP
+
+82  what happens to the data in an instance store if an instance reboots (either intentionally or unintentionally) - thats Data persiststance
+
+83  what happens data on ephemeral volume of an EBS-backed instance if instance is stopped and started - Data is deleted 
+
+84  buildng automated transcription service in which "Amazon EC2 worker" instances process an uploaded audio file - thats via 'single Amazon S3 bucket'
+ 
+85  needing a task coordinator and state management service for cloud applications for stopping writing complex codes or state machinery  - thats via Amazon Simple Workflow (Amazon SWF)
+
+86  need monitoring for ELB Load Balancers at the load balancer - thats via Controller service
+
+
+
+
+
+
+
