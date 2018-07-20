@@ -1,0 +1,2 @@
+#!/bin/groovy
+echo "hi";
